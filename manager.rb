@@ -45,4 +45,18 @@ manager.give_all_raises
 employee1.print_info
 employee2.print_info
 
+# talk about new job and resume
+# talk about how you've been applying
+# talk about reaching out to more friends
+# talk about freelance website
+# job finding slack groups
+# meetup
+# slack communities
+# indeed
+
+require 'http'
+
+response = HTTP.get("url")
+
+markets = response.parse(:json)
 
