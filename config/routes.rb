@@ -13,4 +13,11 @@ Rails.application.routes.draw do
   post "/questions" => "questions#create"
   patch "/questions/:id" => "questions#update"
   delete "/questions/:id" => "questions#destroy"
+
+  # User Controller
+  get "/users" => "users#index"
+  get "/users/:id" => "users#show"
+  post "/users" => "users#create"
+  patch "/users/:id" => "users#update"
+  delete "/users/:id" => "users#destroy"
 end
