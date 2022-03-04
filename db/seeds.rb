@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# Question.create!([{answer: "Shane!"}, {answer: "Shane!"}, {answer: "Shane!"}, {answer: "Shane!"}])
+
+Option.create!([{question_id: 1, option: "Who is the best friend of all the friends?"}])
